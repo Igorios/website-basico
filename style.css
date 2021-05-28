@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+/*Para termos o caeçalho junto a pag*/
+body {
+    margin: 0; 
+
+}
+
+/*Cabeçalho*/
+.header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+
+}
+
+/*Cor*/
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+
+}
+
+/*Trabalhando com o nome*/
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+/*Mudando a cor ao pairar*/
+.topnav a:hover {
+    background-color: #ddd;
+    color: black; 
+
+}
+
+/*Colunas desiguais que flutuam lado a lado*/
+.column {
+    float: left;
+    padding: 12px;
+
+}
+
+/*Coluna esquerda e direita*/
+.column.side {
+    width: 25%;
+
+}
+
+/*Coluna do meio*/
+.column.middle {
+    width: 50%;
+
+}
+
+/*Limpe os flutuadores após as colunas*/
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+/*Layot Responsive*/
+@media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+/*Trabalahndo com o cabeçalho*/
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+
+}
