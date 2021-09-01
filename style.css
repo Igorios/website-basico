@@ -4,18 +4,18 @@
     box-sizing: border-box;
 }
 
+/*Navegador*/
 body, ul, li, p {
     margin: 0px;
     padding: 0px;
     list-style: none;
     font-size: 1.2rem; 
-    font-family: Arial;
-
+    font-family: Arial; 
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: rgb(59, 155, 46);
 
 }
 
@@ -82,8 +82,8 @@ a {
 
 /*Trabalahndo com o rodapé*/
 .footer {
-    background-color: #f1f1f1;
     padding: 10px;
     text-align: center;
-
+    background-color: #f1f1f1;
+    border: 1px solid #1d1e20;
 }
